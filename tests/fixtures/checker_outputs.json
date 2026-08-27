@@ -1,0 +1,42 @@
+[
+  {
+    "id": "valid-allow",
+    "valid": true,
+    "output": {"decision":"allow","reason_code":"none","source":"none","confidence":0.91,"summary":"No cognitive-security conflict detected."}
+  },
+  {
+    "id": "valid-deny",
+    "valid": true,
+    "output": {"decision":"deny","reason_code":"indirect_instruction","source":"indirect","confidence":0.97,"summary":"Retrieved content attempts to supply an instruction."}
+  },
+  {
+    "id": "invalid-extra-field",
+    "valid": false,
+    "output": {"decision":"allow","reason_code":"none","source":"none","confidence":0.8,"summary":"No conflict.","authorized":true}
+  },
+  {
+    "id": "invalid-decision",
+    "valid": false,
+    "output": {"decision":"execute","reason_code":"none","source":"none","confidence":1,"summary":"Proceed."}
+  },
+  {
+    "id": "invalid-confidence",
+    "valid": false,
+    "output": {"decision":"deny","reason_code":"authority_override","source":"direct","confidence":1.4,"summary":"Override attempt."}
+  },
+  {
+    "id": "invalid-allow-with-security-reason",
+    "valid": false,
+    "output": {"decision":"allow","reason_code":"authority_override","source":"direct","confidence":0.9,"summary":"Contradictory allow."}
+  },
+  {
+    "id": "invalid-deny-without-reason",
+    "valid": false,
+    "output": {"decision":"deny","reason_code":"none","source":"none","confidence":0.9,"summary":"Contradictory deny."}
+  },
+  {
+    "id": "invalid-clarify-with-deny-reason",
+    "valid": false,
+    "output": {"decision":"clarify","reason_code":"unauthorized_action","source":"direct","confidence":0.7,"summary":"Contradictory clarification."}
+  }
+]
