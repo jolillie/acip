@@ -1,8 +1,9 @@
-# ACIP cognitive-security prompts
+# ACIP cognitive-security protocol
 
-This fork preserves the MIT-licensed ACIP history and develops a smaller,
-testable cognitive-security layer for agent systems. It is deliberately
-separate from any consuming product's authorization, purpose, safety, and
+ACIP is a standalone protocol for applying versioned cognitive-security prompts
+to AI systems. This repository preserves the MIT-licensed ACIP history and
+develops a smaller, testable layer for agent systems. It is deliberately
+independent of every consuming product's authorization, purpose, safety, and
 abuse-enforcement policies.
 
 ## What this repository provides

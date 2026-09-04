@@ -5,7 +5,7 @@
   "files": {
     "ACIP_v_1.4_Cognitive_Security_Core.md": "38228b1bc52f1b055101b630fd6b62f81812b0b3c54bdb86f38962774df448d2",
     "checker/ACIP_Checker_v_1.0.md": "c6bd4207b0c2dcb127a940c069aafcac811923970a03ec46ad5635493267bda6",
-    "schemas/decision.schema.json": "4dac35988a6a805dc2374ff940fb75a1be6722516af8128a987fae5c304869ac",
+    "schemas/decision.schema.json": "c066bcafa246136eed0985ac0b9ebc967614db2638923b31583c111a8a8ac1c8",
     "integrations/openclaw/AGENTS.fragment.md": "91d48c4aae002b9530eacd70d60f7dc88e765b58845c55b9964287585ad0cdaf"
   }
 }
